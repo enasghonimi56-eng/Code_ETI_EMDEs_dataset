@@ -3,8 +3,12 @@
 * Dataset: 141 countries, 2000-2023, 32 Variables
 *========================================================================
 * HOW TO RUN
-*   1. Put this file, the "Data" folder (containing the raw Excel file)
-*      inside one project folder.
+*   1. Put the raw data file ("Data/Dataset paper.xlsx", 32 indicators),
+*          this file is NOT included in this repository. Only the FINAL
+*          constructed ETI dataset is published. Every raw indicator's
+*          original source is listed in the paper's Table of the ETI
+*          framework, so the raw panel can be reassembled by any user
+*          from those public databases.     
 *   2. Open Stata, then run (edit the path to match your machine):
 *         cd "C:/path/to/project_folder"
 *         do "ETI_Construction_Sensitivity_Analysis.do"
